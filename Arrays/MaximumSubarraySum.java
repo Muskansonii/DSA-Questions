@@ -1,23 +1,33 @@
 package Arrays;
 
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class MaximumSubarraySum {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        try (Scanner sc = new Scanner(System.in)) {
 
-        System.out.print("Enter size of array: ");
-        int n = sc.nextInt();
-        int[] nums = new int[n];
+            System.out.print("Enter size of array: ");
+            int n = sc.nextInt();
 
-        System.out.println("Enter array elements:");
-        for (int i = 0; i < n; i++) {
-            nums[i] = sc.nextInt();
+            if (n <= 0) {
+                System.out.println("Array size must be positive!");
+                return;
+            }
+
+            int[] nums = new int[n];
+
+            System.out.println("Enter array elements:");
+            for (int i = 0; i < n; i++) {
+                nums[i] = sc.nextInt();
+            }
+
+            int maxSum = maxSubArray(nums);
+            System.out.println("Maximum Subarray Sum: " + maxSum);
+
+        } catch (InputMismatchException e) {
+            System.out.println("Invalid input! Please enter integers only.");
         }
-
-        int maxSum = maxSubArray(nums);
-        System.out.println("Maximum Subarray Sum: " + maxSum);
-        sc.close();
     }
 
     public static int maxSubArray(int[] nums) {
