@@ -1,5 +1,5 @@
 package Strings;
-public public class StringCompression{
+class StringCompression{
     public int compress(char[] chars) {
         int write = 0;
         int read = 0;
@@ -22,7 +22,7 @@ public public class StringCompression{
     }
 
     public static void main(String[] args) {
-        Solution StringCompression = new StringCompression();
+         StringCompression solution = new StringCompression();
         char[] chars = {'a', 'a', 'b', 'b', 'c', 'c', 'c'};
         int newLength = solution.compress(chars);
         System.out.println("Compressed Length: " + newLength);
