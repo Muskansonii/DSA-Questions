@@ -18,7 +18,7 @@ class StringCompression{
                 }
             }
         }
-        return write;
+        return  write;
     }
 
     public static void main(String[] args) {
