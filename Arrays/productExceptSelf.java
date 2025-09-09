@@ -1,3 +1,4 @@
+package Arrays;
 public class productExceptSelf {
 
     public static int[] productExceptSelf(int[] nums) {

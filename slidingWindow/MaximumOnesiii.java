@@ -1,4 +1,4 @@
-package DSA/slidingWindow;
+package slidingWindow;
 
 public class MaximumOnesiii {
     class Solution {
