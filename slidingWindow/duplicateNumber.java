@@ -7,7 +7,7 @@ public class DuplicateNumber {
         do {
             slow = nums[slow];
             fast = nums[nums[fast]];
-        } while (slow != fast);
+        } while (slow != fast);ss
         
         // Step 2: Find duplicate
         fast = nums[0];
