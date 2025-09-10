@@ -1,9 +1,9 @@
-package slidingWindow;
+ package slidingWindow;
 public class MaximumOnes {
      public int findMaxConsecutiveOnes(int[] nums) {
         int maxCount = 0;
         int count = 0;
-        
+
         for (int num : nums) {
             if (num == 1) {
                 count++;
@@ -12,10 +12,10 @@ public class MaximumOnes {
                 count = 0;
             }
         }
-        
+
         return maxCount;
     }
-    
+
     public static void main(String[] args) {
         MaximumOnes solution = new MaximumOnes();
         int[] nums = {1, 1, 0, 1, 1, 1};
@@ -23,3 +23,4 @@ public class MaximumOnes {
         System.out.println("Maximum consecutive ones: " + result);
     }
 }
+

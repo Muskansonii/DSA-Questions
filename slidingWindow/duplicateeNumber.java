@@ -1,4 +1,4 @@
-public class DuplicateNumber {
+public class duplicateeNumber {
     
     public static int findDuplicate(int[] nums) {
         int slow = nums[0], fast = nums[0];
@@ -7,7 +7,7 @@ public class DuplicateNumber {
         do {
             slow = nums[slow];
             fast = nums[nums[fast]];
-        } while (slow != fast);ss
+        } while (slow != fast);
         
         // Step 2: Find duplicate
         fast = nums[0];
