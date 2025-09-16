@@ -1,6 +1,7 @@
 package Arrays;
 
 public class minimumTimeToFinishOneTask {
+
     public int earliestTime(int[][] tasks) {
         int min = Integer.MAX_VALUE;
         for (int[] task : tasks) {
