@@ -1,3 +1,5 @@
+package slidingWindow;
+
 public class duplicateeNumber {
     
     public static int findDuplicate(int[] nums) {

@@ -1,4 +1,4 @@
- package slidingWindow;
+package slidingWindow;
  public class MaximumOnes {
      public int findMaxConsecutiveOnes(int[] nums) {
         int maxCount = 0;
