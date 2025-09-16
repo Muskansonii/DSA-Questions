@@ -1,6 +1,6 @@
 package Arrays;
 
-public class MinimumTimeToFinishOneTask {
+public class minimumTimeToFinishOneTask {
 
     /**
      * @param tasks
@@ -17,7 +17,7 @@ public class MinimumTimeToFinishOneTask {
     }
 
     public static void main(String[] args) {
-        MinimumTimeToFinishOneTask sol = new MinimumTimeToFinishOneTask();
+        minimumTimeToFinishOneTask sol = new minimumTimeToFinishOneTask();
 
         // Example 1
         int[][] tasks1 = {{1, 6}, {2, 3}};
