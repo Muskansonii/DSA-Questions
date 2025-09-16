@@ -1,7 +1,11 @@
 package Arrays;
 
-public class minimumTimeToFinishOneTask {
+public class MinimumTimeToFinishOneTask {
 
+    /**
+     * @param tasks
+     * @return
+     */
     public int earliestTime(int[][] tasks) {
         int min = Integer.MAX_VALUE;
         for (int[] task : tasks) {
@@ -13,7 +17,7 @@ public class minimumTimeToFinishOneTask {
     }
 
     public static void main(String[] args) {
-        minimumTimeToFinishOneTask sol = new minimumTimeToFinishOneTask();
+        MinimumTimeToFinishOneTask sol = new MinimumTimeToFinishOneTask();
 
         // Example 1
         int[][] tasks1 = {{1, 6}, {2, 3}};
@@ -26,5 +30,3 @@ public class minimumTimeToFinishOneTask {
         // You can add more test cases here if you want!
     }
 }
-    
-
