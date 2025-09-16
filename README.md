@@ -1,6 +1,15 @@
-# DSA-Questions
-DSA practice with java
-# DSA Interview Preparation
+Arrays:
+1.earliest time to finish one tasks
+2.maximum subarray sum
+3.minimum time to finish one task
+4.product except self
+5.Two sum
 
-This repository contains **most asked coding interview questions**, structured **topic-wise** (Arrays, Strings, Linked List, Trees, Graphs, Dynamic Programming, etc.).  
+Sliding Window
+1.duplicate number
+2.Maximum ones
+3.Maximum ones iii
+
+Strings
+1. String compression
 
