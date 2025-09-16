@@ -1,15 +1,25 @@
-Arrays:
-1.earliest time to finish one tasks
-2.maximum subarray sum
-3.minimum time to finish one task
-4.product except self
-5.Two sum
+## Arrays Problems
 
-Sliding Window
-1.duplicate number
-2.Maximum ones
-3.Maximum ones iii
+- Earliest time to finish one task ✅  
+  Greedy / Interval scheduling problem
+- Maximum Subarray Sum ✅  
+  Kadane’s algorithm
+- Minimum time to finish one task ✅  
+  Brute + Optimised greedy, humne solve kiya
+- Product Except Self ✅  
+  Prefix & suffix product method
+- Two Sum ✅  
+  HashMap / two pointer approach
 
-Strings
-1. String compression
+## Sliding Window Problems
 
+- Duplicate Number ✅  
+  HashSet / sliding window
+- Maximum Ones ✅  
+  Fixed size window, count
+- Maximum Ones III ✅  
+  Variable size sliding window, at most k zeros
+
+## Strings Problems
+
+- String Compression
