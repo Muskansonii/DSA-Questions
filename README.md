@@ -23,7 +23,7 @@
 ## Strings Problems
 
 - String Compression
-- second largest digit in a string
+- Second largest digit in a string
 
 ## Stack and Queues
 - Valid parenthesis
