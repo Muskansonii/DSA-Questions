@@ -1,5 +1,5 @@
 package Strings;
-class secondLargest{
+class secondLargestt{
     public static int secondLargest(String s) {
         int largest = -1;
         int secondLargest = -1;
