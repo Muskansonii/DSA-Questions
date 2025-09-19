@@ -20,6 +20,9 @@
 - Maximum Ones III ✅  
   Variable size sliding window, at most k zeros
 
+## Prefix sum and Hashing
+- Subarray count with odd sum
+
 ## Strings Problems
 
 - String Compression
