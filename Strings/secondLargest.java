@@ -1,5 +1,5 @@
 package Strings;
-class Solution {
+class secondLargest{
     public static int secondLargest(String s) {
         int largest = -1;
         int secondLargest = -1;
@@ -22,7 +22,7 @@ class Solution {
     public static void main(String[] args) {
         // Example usage
         String input = "abc12345"; // You can change this input
-        int result = secondHighest(input);
+        int result = secondLargest(input);
         System.out.println("The second highest digit is: " + result);
     }
 }
