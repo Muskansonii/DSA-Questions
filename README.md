@@ -22,6 +22,7 @@
 
 ## Prefix sum and Hashing
 - Subarray count with odd sum
+- Maximum subarray of k size window
 
 ## Strings Problems
 
