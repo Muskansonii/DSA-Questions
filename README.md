@@ -24,7 +24,7 @@
 - Subarray count with odd sum
 - Maximum subarray of k size window
 
-## Strings Problems
+## Strings
 
 - String Compression
 - Second largest digit in a string
